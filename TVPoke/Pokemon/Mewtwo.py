@@ -9,4 +9,4 @@ class Mewtwo(Psychic):
             Move("Surf", "WATER", 80),
             Move("Splash", "WATER", 0)
         ]
-        super().__init__("Golduck", 80, moves, "./TVPoke/Pokemon/imgs/Golduck.png")
+        super().__init__("MewTwo", 80, moves, "./TVPoke/Pokemon/imgs/Mewtwo.png")
