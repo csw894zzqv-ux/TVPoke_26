@@ -32,6 +32,7 @@ class Psychic(Pokemon):
 class Ghost(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "GHOST", "GHOST", moves, imgPath)
+        
 class Bug(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "BUG", "FIRE", moves, imgPath)
